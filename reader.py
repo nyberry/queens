@@ -53,7 +53,7 @@ def display_grid(grid):
         print(" ".join(map(str, row)))
 
 def display_solved_message(execution_time):
-    print (f"\nExecution time: {execution_time} seconds")
+    print (f"\nExecution time: {round(execution_time,6)} seconds")
     message = f"Queens #320 | {round(execution_time,2)}s\n"+ "First 👑s: 🟦 🟩 ⬜\n" + "lnkd.in/queens."
     print (f"\n{message}\n\n")
 

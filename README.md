@@ -11,7 +11,7 @@ This project is a variation of the N-Queens problem. The goal is to place queens
 - Reader.py contains functions to loads an initial puzzle grid from a screenshot, saved at screenshot.png
 - Queens.py uses a recursive backtracking algorithm to find valid solutions.
 - Ensures that each region gets exactly one queen.
-- Outputs a composite grid where `Q` marks queen placements and other cells retain their original values.
+- Outputs a composite grid where `👑` marks queen placements and other cells retain their original values.
 - Displays execution time for performance analysis.
 
 ## Installation
@@ -38,16 +38,16 @@ python queens.py
 ```
 Solution:
 
-Q 0 0 0 0 0 1 1
-0 0 0 Q 3 1 1 1
-0 0 2 2 3 Q 1 1
-0 Q 4 4 3 3 3 1
-0 5 5 5 6 6 Q 1
-0 7 Q 5 6 6 7 1
-7 7 7 5 6 7 7 Q
-7 7 7 7 Q 7 1 1
+👑 0 0 0 0 0 1 1
+0 0 0 👑 3 1 1 1
+0 0 2 2 3 👑 1 1
+0 👑 4 4 3 3 3 1
+0 5 5 5 6 6 👑 1
+0 7 👑 5 6 6 7 1
+7 7 7 5 6 7 7 👑
+7 7 7 7 👑 7 1 1
 
-Execution time: 0.007206 seconds
+Execution time: 0.006999 seconds
 
 Queens #320 | 0.01s
 First 👑s: 🟦 🟩 ⬜

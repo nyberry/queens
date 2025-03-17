@@ -72,7 +72,7 @@ if __name__ == "__main__":
         for row in range(num_queens):
             for col in range(num_queens):
                 if queens_grid[row, col] == 1:
-                    composite_grid[row, col] = "Q"  # Place "Q" where a queen is present
+                    composite_grid[row, col] = "👑"  # Place "👑" where a queen is present
 
     if solutions:
         print("\nSolution:\n")
