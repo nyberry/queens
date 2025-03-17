@@ -36,12 +36,22 @@ python queens.py
 
 ### Example Output
 ```
-Execution Time: 0.015 seconds
 Solution:
-0 0 Q 0 0 0 1 1
-0 0 0 2 Q 1 1 1
-0 0 4 2 3 3 Q 1
-...
+
+Q 0 0 0 0 0 1 1
+0 0 0 Q 3 1 1 1
+0 0 2 2 3 Q 1 1
+0 Q 4 4 3 3 3 1
+0 5 5 5 6 6 Q 1
+0 7 Q 5 6 6 7 1
+7 7 7 5 6 7 7 Q
+7 7 7 7 Q 7 1 1
+
+Execution time: 0.007206916809082031 seconds
+
+Queens #320 | 0.01s
+First 👑s: 🟦 🟩 ⬜
+lnkd.in/queens.
 ```
 
 ## File Structure
