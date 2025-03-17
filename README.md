@@ -66,4 +66,6 @@ queens/
 ## Future Improvements
 - Implement a **graphical interface** for screenshot copy and paste and for solution visualization.
 
+N Berry 2025-Mar-17
+
 
