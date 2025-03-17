@@ -60,7 +60,7 @@ queens/
 │── queens.py          # Main solver script
 │── reader.py          # Loads the puzzle grid
 │── README.md          # Project documentation
-│── sample_grid.txt    # Example input grid
+│── screenshot.png     # Screenshot of the puzzle to solve
 ```
 
 ## Future Improvements
