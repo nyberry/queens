@@ -8,8 +8,8 @@ This project is a variation of the N-Queens problem. The goal is to place queens
 - Unlike the classic N-Queens problem, diagonal constraints do not apply.
 
 ## Features
-- Loads an initial puzzle grid from a screenshot, saved at screenshot.png
-- Uses a recursive backtracking algorithm to find valid solutions.
+- Reader.py contains functions to loads an initial puzzle grid from a screenshot, saved at screenshot.png
+- Queens.py uses a recursive backtracking algorithm to find valid solutions.
 - Ensures that each region gets exactly one queen.
 - Outputs a composite grid where `Q` marks queen placements and other cells retain their original values.
 - Displays execution time for performance analysis.
