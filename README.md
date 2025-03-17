@@ -4,7 +4,7 @@ This project is a variation of the N-Queens problem. The goal is to place queens
 
 - No two queens can be in the same row or column.
 - No two queens can be in adjacent squares.
-- Each queen must be placed in a distinct colored region, where regions are represented by numbers in the input grid.
+- Each queen must be placed in a distinct coloured region, where regions are represented by numbers in the input grid.
 - Unlike the classic N-Queens problem, diagonal constraints do not apply.
 
 ## Features
